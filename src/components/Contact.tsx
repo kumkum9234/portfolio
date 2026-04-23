@@ -18,11 +18,23 @@ export const Contact = () => {
       return;
     }
     setSending(true);
-    // Replace with your form service (Formspree, EmailJS, etc.)
-    await new Promise((r) => setTimeout(r, 1200));
-    toast.success("Message sent! I'll get back to you soon.");
-    setForm({ name: '', email: '', message: '' });
-    setSending(false);
+    try {
+      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ name: form.name, email: form.email, message: form.message }),
+      });
+      if (res.ok) {
+        toast.success("Message sent! I'll get back to you soon.");
+        setForm({ name: '', email: '', message: '' });
+      } else {
+        toast.error('Something went wrong. Please email me directly.');
+      }
+    } catch {
+      toast.error('Network error. Please email me directly.');
+    } finally {
+      setSending(false);
+    }
   };
 
   const CONTACT_LINKS = [
