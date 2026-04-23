@@ -8,7 +8,7 @@ export const PERSONAL = {
   github: 'https://github.com/kumkum9234',
   linkedin: 'https://www.linkedin.com/in/kumkum-kumari-patel-0471b5376/',
   portfolio: 'https://gauravmandal.dev',
-  resume: '/resume.pdf',
+  resume: 'https://drive.google.com/uc?export=download&id=1d9oGi5l0x80UezTDm4fvkLS8e50j3R7l',
   bio: `I'm a full-stack engineer with a strong backend focus — I love building things that actually work at scale. I craft production-grade REST APIs, realtime systems with Socket.io, and design PostgreSQL schemas that don't fall apart under load.
 
 Currently pursuing my MCA while actively shipping projects. I believe the best way to learn is to build — so I do.`,

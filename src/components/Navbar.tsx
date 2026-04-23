@@ -66,7 +66,8 @@ export const Navbar = () => {
           ))}
           <a
             href={PERSONAL.resume}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-3 px-4 py-2 rounded-lg bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-sm font-semibold hover:from-violet-500 hover:to-indigo-500 transition-all shadow-lg shadow-violet-500/20 hover:-translate-y-0.5"
           >
             Resume
@@ -97,7 +98,8 @@ export const Navbar = () => {
           ))}
           <a
             href={PERSONAL.resume}
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="block mt-2 px-4 py-3 rounded-xl bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-semibold text-center"
           >
             Download Resume

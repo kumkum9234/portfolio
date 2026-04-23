@@ -102,7 +102,7 @@ export const Hero = () => {
                 View My Work
                 <ArrowDown size={16} />
               </a>
-              <a href={PERSONAL.resume} download className="btn-secondary">
+              <a href={PERSONAL.resume} target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 <Download size={16} />
                 Download Resume
               </a>
