@@ -15,32 +15,32 @@ Currently pursuing my MCA while actively shipping projects. I believe the best w
 };
 
 export const PROJECTS = [
-  {
-    title: 'CollabNotes',
-    description:
-      'Realtime collaborative note-taking app with simultaneous multi-user editing, JWT auth with refresh token rotation, SHA-256 hashed token revocation, version history with restore, and note sharing with per-user read/write permissions.',
-    tech: ['Node.js', 'Express', 'Socket.io', 'Next.js', 'PostgreSQL', 'Docker'],
-    live: 'https://collab-notes.vercel.app',
-    github: 'https://github.com/kumkum9234/collab-notes',
-    highlight: true,
-    gradient: 'from-violet-600 to-indigo-600',
-  },
-  {
-    title: 'Job Application Tracker',
-    description:
-      'Full-stack job tracking system with Applied → Interview → Offer/Rejected pipeline, analytics dashboard, per-application notes, and server-side search with multi-filter API built using dynamic Prisma query building.',
-    tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
-    live: 'https://job-tracker.vercel.app',
-    github: 'https://github.com/kumkum9234/job-tracker',
-    highlight: false,
-    gradient: 'from-indigo-600 to-cyan-600',
-  },
+  // {
+  //   title: 'CollabNotes',
+  //   description:
+  //     'Realtime collaborative note-taking app with simultaneous multi-user editing, JWT auth with refresh token rotation, SHA-256 hashed token revocation, version history with restore, and note sharing with per-user read/write permissions.',
+  //   tech: ['Node.js', 'Express', 'Socket.io', 'Next.js', 'PostgreSQL', 'Docker'],
+  //   live: 'https://collab-notes.vercel.app',
+  //   github: 'https://github.com/kumkum9234/collab-notes',
+  //   highlight: true,
+  //   gradient: 'from-violet-600 to-indigo-600',
+  // },
+  // {
+  //   title: 'Job Application Tracker',
+  //   description:
+  //     'Full-stack job tracking system with Applied → Interview → Offer/Rejected pipeline, analytics dashboard, per-application notes, and server-side search with multi-filter API built using dynamic Prisma query building.',
+  //   tech: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind CSS'],
+  //   live: 'https://job-tracker.vercel.app',
+  //   github: 'https://github.com/kumkum9234/job-tracker',
+  //   highlight: false,
+  //   gradient: 'from-indigo-600 to-cyan-600',
+  // },
   {
     title: 'Developer Portfolio',
     description:
       'This portfolio — built with Next.js 14 App Router, Tailwind CSS, and Framer Motion. Fully responsive, SEO optimised with Open Graph tags and Next.js metadata API.',
     tech: ['Next.js', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
-    live: 'https://gauravmandal.dev',
+    live: 'https://portfolio-henna-eight-81.vercel.app/',
     github: 'https://github.com/kumkum9234/portfolio',
     highlight: false,
     gradient: 'from-pink-600 to-violet-600',
